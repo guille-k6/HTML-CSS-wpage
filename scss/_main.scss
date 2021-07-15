@@ -1,0 +1,51 @@
+
+
+.font-Fjalla{
+	font-family: 'Fjalla One', sans-serif;
+	transform: skew(-10deg);
+}
+@mixin font-Montserrat($weight){ /* 100 300 500 700 */
+	font-family:'Montserrat', sans-serif;
+	font-weight: $weight;
+}
+@mixin font-Rubik($weight){ /*300 500 700*/
+	font-family: 'Rubik', sans-serif;
+	font-weight: $weight;
+}
+@mixin tituloPrincipal($tamanio){
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: $tamanio;
+    color:#e7e7e7;
+}
+@mixin elBoton($y: 0.5em, $x:0.75em){
+	width: max-content;
+	padding:1rem;
+	margin:auto;
+    a{
+		text-decoration: none;
+		padding: $y $x;
+		background-color: $celeste;
+		color: $negrito;
+		border: 1px solid $gris;
+		border-radius: 16px;
+		&:hover{
+			background-color: #e7e7e7;
+			color: $azul-oscuro;
+			transition: all 250ms ease-in-out;
+		}
+	}
+}
+@each $red, $color in $colores-footer{
+	.color-#{$red}{
+		color: $color;
+	}
+}
+
+
+@for $i from 1 through 3{
+	.weight-#{$i}{
+		font-weight: 200*$i + 100
+	} /* esto genera weight-1 = 300, weight-2 = 500 y weight-3 = 700, es otra forma de darle peso a las tipografías. */
+
+}

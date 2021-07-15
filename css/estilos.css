@@ -1,0 +1,708 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700;900&display=swap");
+/* line 3, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/_main.scss */
+.font-Fjalla, p.tituloFooter, .tituloServicio, .botonFormulario {
+  font-family: 'Fjalla One', sans-serif;
+  transform: skew(-10deg);
+}
+
+/* line 40, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/_main.scss */
+.color-email {
+  color: #7d7d7d;
+}
+
+/* line 40, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/_main.scss */
+.color-twitter {
+  color: #08a0e9;
+}
+
+/* line 40, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/_main.scss */
+.color-facebook {
+  color: #3B5998;
+}
+
+/* line 47, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/_main.scss */
+.weight-1 {
+  font-weight: 300;
+}
+
+/* esto genera weight-1 = 300, weight-2 = 500 y weight-3 = 700, es otra forma de darle peso a las tipografías. */
+/* line 47, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/_main.scss */
+.weight-2 {
+  font-weight: 500;
+}
+
+/* esto genera weight-1 = 300, weight-2 = 500 y weight-3 = 700, es otra forma de darle peso a las tipografías. */
+/* line 47, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/_main.scss */
+.weight-3 {
+  font-weight: 700;
+}
+
+/* esto genera weight-1 = 300, weight-2 = 500 y weight-3 = 700, es otra forma de darle peso a las tipografías. */
+/* line 5, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+#elHeader {
+  background-color: #102b3c;
+}
+
+/* line 8, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+a.navbar-brand {
+  padding: 0px;
+}
+
+/* line 11, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+#logoNetservices {
+  height: 40px;
+  padding: none;
+}
+
+/* line 15, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+#divTituloImg {
+  background-image: linear-gradient(94deg, rgba(33, 37, 41, 0.9) 6%, rgba(58, 198, 233, 0.3) 79%), url("../media/wallpaper3.jpg");
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 40%;
+}
+
+/* line 24, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.tituloLanding {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 180%;
+  color: #e7e7e7;
+}
+
+/* line 27, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.fotoFibraOptica {
+  padding-top: 1rem;
+  display: block;
+  width: 100%;
+  max-width: 30vh;
+}
+
+/* line 33, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+#divInternetHogares {
+  background-image: linear-gradient(180deg, rgba(208, 0, 214, 0.2) 21%, rgba(0, 0, 0, 0.25) 84%), url("../media/wallpaper1.jpg");
+  width: 100%;
+}
+
+/* line 39, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.tipoPlan {
+  font-size: 1.1em;
+  color: white;
+}
+
+/* line 43, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+#contenedorTituloServicio {
+  background: rgba(0, 0, 0, 0.4);
+  margin: 0;
+  width: 100%;
+}
+
+/* line 48, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.tituloServicioLanding {
+  width: 100%;
+  /*300 500 700*/
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  color: #ced8e1;
+  padding: 1rem;
+  font-size: 180%;
+  text-align: center;
+}
+
+/* line 56, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.textServicioLanding {
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 200%;
+}
+
+/* line 61, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.fondoServicioLanding {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 5rem;
+}
+
+/* line 66, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.fondoServicioLanding:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+  transform: scale(1.1);
+  transition: all 250ms ease-in-out;
+}
+
+/* line 72, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.servicioLandingTitulo {
+  /*300 500 700*/
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 1.3em;
+  color: #ced8e1;
+  border-bottom: 1px solid #5e5e5e;
+}
+
+/* line 77, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.servicioLandingTitulo .elTitulo {
+  color: #ced8e1;
+  padding: 0px 10px;
+  margin-bottom: 0.3em;
+}
+
+/* line 83, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.servicioLandingCuerpo {
+  /*300 500 700*/
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-size: 1.1em;
+  color: #ced8e1;
+}
+
+/* line 87, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.servicioLandingCuerpo ul {
+  padding: 1rem;
+  line-height: 2em;
+  border-bottom: 1px solid #5e5e5e;
+}
+
+/* line 92, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.servicioLandingCuerpo .servicioLandingPrecio {
+  font-size: 1.2em;
+  width: max-content;
+  padding: 0.5em 1em;
+  border: 1px solid #ced8e1;
+  border-radius: 8px;
+  margin: auto;
+}
+
+/* line 99, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.servicioLandingCuerpo .servicioLandingPrecio span {
+  color: #7b8084;
+}
+
+/* line 103, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.servicioLandingCuerpo .servicioLandingGratis {
+  padding: 0.3em;
+  font-size: 0.8em;
+  width: max-content;
+  margin: auto;
+}
+
+/* line 109, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.servicioLandingCuerpo .servicioLandingBotonLoQuiero {
+  width: max-content;
+  padding: 1rem;
+  margin: auto;
+}
+
+/* line 25, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/_main.scss */
+.servicioLandingCuerpo .servicioLandingBotonLoQuiero a {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  background-color: #3ac6e9;
+  color: #212529;
+  border: 1px solid #ced8e1;
+  border-radius: 16px;
+}
+
+/* line 32, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/_main.scss */
+.servicioLandingCuerpo .servicioLandingBotonLoQuiero a:hover {
+  background-color: #e7e7e7;
+  color: #102b3c;
+  transition: all 250ms ease-in-out;
+}
+
+/* line 113, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+#divInternetEmpresas {
+  background-image: linear-gradient(90deg, rgba(58, 198, 233, 0.3) 22%, rgba(0, 0, 0, 0.8) 81%), url("../media/wallpaper2.jpg");
+  background-position: center left;
+  background-size: cover;
+  width: 100%;
+}
+
+/* line 121, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+#divInformacionLanding {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 27%, rgba(16, 43, 60, 0.3) 75%), url("../media/wallpaper4.jpg");
+  background-position: bottom center;
+  background-size: cover;
+  padding-bottom: 4rem;
+  width: 100%;
+}
+
+/* line 130, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.carousel-inner {
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 5rem;
+}
+
+/* line 135, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.tituloCarousel {
+  text-align: center;
+  color: #ced8e1;
+  margin: 2rem;
+  font-size: 200%;
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+/* line 142, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.textCarousel {
+  text-align: left;
+  color: #ced8e1;
+  padding: 0em 3.5em;
+  font-size: 100%;
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+/* line 149, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.botonCarousel {
+  width: max-content;
+  margin: 1rem auto;
+  margin-top: 4rem;
+}
+
+/* line 153, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.botonCarousel a {
+  padding: 0.6rem 1rem;
+  border: 1px solid #212529;
+  background-color: #3ac6e9;
+  border-radius: 16px;
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #102b3c;
+  text-decoration: none;
+}
+
+/* line 161, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.botonCarousel a:hover {
+  color: #212529;
+  background-color: #f4f4f4;
+  transition: all 250ms ease-in-out;
+}
+
+/* line 168, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+#accordionExample {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* line 171, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.accordion-item {
+  background-color: rgba(0, 0, 0, 0.66);
+  color: #ced8e1;
+}
+
+/* line 175, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.accordion-button {
+  /*300 500 700*/
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  background-color: rgba(206, 216, 225, 0.3);
+  outline: none;
+  color: #ced8e1;
+}
+
+/* line 180, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+
+/* line 185, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.accordion-button:not(.collapsed) {
+  background-color: rgba(206, 216, 225, 0.6);
+  color: #3ac6e9;
+}
+
+/* FOOTER */
+/* line 193, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+footer {
+  border-top: 2px solid black;
+  background-color: #102b3c;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 199, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.imgFooter {
+  height: 50px;
+  margin-right: 10px;
+}
+
+/* line 204, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+p.tituloFooter {
+  font-size: 200%;
+  color: #3ac6e9;
+  border-bottom: 1px solid #ced8e1;
+  margin-bottom: 10px;
+}
+
+/* line 211, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+p.textoFooter {
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 150%;
+  color: #ced8e1;
+  line-height: 1em;
+}
+
+/* line 217, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.aFooter {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 150%;
+  color: #ced8e1;
+  line-height: 1em;
+}
+
+/* line 224, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+#headingOne {
+  background-color: #11222d;
+}
+
+/* line 227, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.accordionTitle {
+  font-size: 18px;
+  color: #3ac6e9;
+}
+
+/* line 231, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.card {
+  background-color: #040117;
+}
+
+/* CSS ZONA DE COBERTURA -------- */
+/* line 236, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.divFondoCobertura {
+  background-image: linear-gradient(180deg, rgba(208, 0, 214, 0.2) 21%, rgba(0, 0, 0, 0.25) 84%), url("../media/wallpaper1.jpg");
+  padding-bottom: 1rem;
+}
+
+/* line 241, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+#imgCobertura {
+  width: 80%;
+  max-width: 500px;
+  margin: auto;
+  border: 2px solid #3ac6e9;
+}
+
+/* line 247, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.coberturaText {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+/* line 251, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.divFinCobertura {
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  color: #ced8e1;
+  padding: 2rem 1rem;
+  font-size: 2rem;
+  border-radius: 2rem;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* line 258, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.divFinCobertura a {
+  color: #3ac6e9;
+  text-decoration: none;
+}
+
+/* CSS FORMULARIO */
+/* line 266, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.divFormulario {
+  background-image: linear-gradient(180deg, rgba(231, 231, 231, 0.6) 11%, rgba(130, 189, 227, 0.3) 91%), url("../media/wallpaper3.jpg");
+  background-size: cover;
+  background-position: center left;
+}
+
+/* line 273, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.containerMio {
+  padding: 1rem 0rem;
+  width: 80%;
+  margin: auto;
+}
+
+/* line 278, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.tituloForm {
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #212529;
+  font-size: 4rem;
+}
+
+/* line 283, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.textoForm {
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #3a4046;
+  font-size: 2rem;
+}
+
+/* line 288, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.elFormulario {
+  padding: 0;
+}
+
+/* line 290, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.elFormulario label {
+  font-size: 1.2em;
+  padding-left: 0.4rem;
+  /*300 500 700*/
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+}
+
+/* line 295, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.elFormulario input {
+  width: 66%;
+  padding: 4px 8px;
+}
+
+/* line 298, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.elFormulario input:focus {
+  box-shadow: none;
+  outline-color: rgba(0, 0, 255, 0.5);
+}
+
+/* line 302, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.elFormulario input[type=checkbox] {
+  width: max-content;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 308, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.elFormulario select {
+  width: 20%;
+  outline-color: rgba(0, 0, 255, 0.5);
+}
+
+/* line 312, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.elFormulario button:hover {
+  color: black;
+  background-color: white;
+  transition: 200ms linear;
+}
+
+/* SERVICIO 1 */
+/* line 321, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.bi-alarm-fill {
+  width: 100%;
+}
+
+/* line 324, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.fondoServicioUno {
+  background-image: linear-gradient(180deg, rgba(208, 0, 214, 0.2) 21%, rgba(0, 0, 0, 0.25) 84%), url("../media/wallpaper1.jpg");
+  background-size: cover;
+  background-position: top left;
+}
+
+/* line 332, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.tituloServicio {
+  color: #3ac6e9;
+  font-size: 2.5rem;
+  padding-left: 2rem;
+  border-bottom: 1px solid #ced8e1;
+}
+
+/* line 339, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.logoBootstrap {
+  padding: 1rem;
+  display: block;
+  width: 50%;
+  margin: auto;
+  color: #ced8e1;
+  border-bottom: 1px solid #ced8e1;
+}
+
+/* line 347, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+#herramientas {
+  padding: 2rem;
+}
+
+/* line 351, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.contenedorCuerpoServicio h5 {
+  color: #3ac6e9;
+  /*300 500 700*/
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  padding-top: 4px;
+  padding-left: 15%;
+}
+
+/* line 357, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.contenedorCuerpoServicio ul {
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #ced8e1;
+  padding: 0em 4em;
+}
+
+/* line 363, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.servicioPrecio {
+  color: #ced8e1;
+  font-size: 1.5em;
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  width: max-content;
+  margin: auto;
+  padding: 0.5em;
+  border: 1px solid #ced8e1;
+  border-radius: 8px;
+}
+
+/* line 372, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.servicioPrecio span {
+  color: grey;
+}
+
+/* line 376, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+#aclaracion {
+  color: #ced8e1;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+/* line 381, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.contenedorServicio {
+  margin-top: 1rem;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 96%;
+  padding-bottom: 3rem;
+}
+
+/* line 388, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.contactoFormulario {
+  /*300 500 700*/
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  color: #ced8e1;
+  padding: 1rem;
+  font-size: 3rem;
+  width: 75%;
+  margin: auto;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 398, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.botonFormulario {
+  color: #102b3c;
+  background-color: #3ac6e9;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 0.8em;
+}
+
+/* line 406, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+.botonFormulario:hover {
+  background-color: #212529;
+  color: #3ac6e9;
+  transition: 200ms linear;
+}
+
+/* line 413, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/estilos.scss */
+html {
+  background-color: #102b3c;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  /* line 4, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/_mediaQueries.scss */
+  .botonCarousel a {
+    font-size: 0.7em;
+  }
+  /* line 7, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/_mediaQueries.scss */
+  p.tituloLanding {
+    margin: auto;
+    font-size: 140%;
+  }
+  /* line 12, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/_mediaQueries.scss */
+  .elFormulario input {
+    width: 90%;
+  }
+  /* line 15, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/_mediaQueries.scss */
+  .elFormulario select {
+    width: 90%;
+  }
+  /* line 19, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/_mediaQueries.scss */
+  .tituloForm {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1020px) {
+  /* line 26, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/_mediaQueries.scss */
+  p.tituloLanding {
+    margin: auto;
+    font-size: 200%;
+  }
+  /* line 30, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/_mediaQueries.scss */
+  p.textServicioLanding {
+    font-size: 300%;
+  }
+  /* line 34, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/_mediaQueries.scss */
+  .elFormulario input {
+    width: 90%;
+  }
+  /* line 37, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/_mediaQueries.scss */
+  .elFormulario select {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  /* line 46, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/_mediaQueries.scss */
+  #divTituloImg {
+    background-position: center right;
+  }
+  /* line 49, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/_mediaQueries.scss */
+  p.tituloLanding {
+    margin: auto;
+    font-size: 300%;
+  }
+  /* line 53, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/_mediaQueries.scss */
+  p.textServicioLanding {
+    font-size: 340%;
+  }
+  /* line 56, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/_mediaQueries.scss */
+  p#aLaDerecha {
+    text-align: right;
+  }
+  /* line 59, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/_mediaQueries.scss */
+  p#aLaIzquierda {
+    text-align: left;
+  }
+  /* line 62, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/_mediaQueries.scss */
+  .servicioLandingBotonLoQuiero {
+    margin: 1em;
+    /*profe, acá no le puedo redefinir el margin, sabes por que puede ser? */
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  /* line 68, C:/Users/Guille/Desktop/Curso_Coderhouse/tercera_entrega/scss/_mediaQueries.scss */
+  .textCarousel {
+    margin: 0em 3em;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

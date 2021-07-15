@@ -1,0 +1,417 @@
+@import "fonts";
+@import "variables";
+@import "main";
+
+#elHeader{
+	background-color:$azul-oscuro;
+}
+a.navbar-brand{
+	padding:0px;
+}
+#logoNetservices{
+	height: 40px;
+	padding: none;
+}
+#divTituloImg{
+	background-image: 
+	linear-gradient(94deg, rgba(33,37,41,.9) 6%, rgba(58,198,233,0.3) 79%),
+	url("../media/wallpaper3.jpg");
+	background-size: cover;
+	background-position: bottom;
+	width: 100%;
+	height: 40%;
+}
+.tituloLanding{
+	@include tituloPrincipal (180%);
+}
+.fotoFibraOptica{
+	padding-top:1rem;
+	display:block;
+	width: 100%;
+	max-width: 30vh;
+}
+#divInternetHogares{
+	background-image: 
+	linear-gradient(180deg, rgba(208,0,214,0.20) 21%, rgba(0,0,0,0.25) 84%),
+	url("../media/wallpaper1.jpg");
+	width: 100%;
+}
+.tipoPlan{
+	font-size:1.1em;
+	color: white;
+}
+#contenedorTituloServicio{
+	background:rgba(#000, 0.4);
+	margin:0;
+	width: 100%;
+}
+.tituloServicioLanding{
+	width: 100%;
+	@include font-Rubik(500);
+	color:$gris;
+	padding: 1rem;
+	font-size:180%;
+	text-align:center;
+}
+.textServicioLanding{
+	@include font-Montserrat(300);
+	color: white;
+	font-size: 200%;
+}
+.fondoServicioLanding{
+	background-color: rgba(#000, 0.5);
+	padding: 1rem;
+	border-radius: 8px;
+	margin-bottom: 5rem;
+	&:hover{
+		background-color: rgba(#000, 0.75);
+		transform: scale(1.1);
+		transition: all 250ms ease-in-out;
+	}
+}
+.servicioLandingTitulo{
+	@include font-Rubik(500);
+	font-size: 1.3em;
+	color:$gris;
+	border-bottom: 1px solid #5e5e5e;
+	.elTitulo{
+		color: $gris;
+		padding: 0px 10px;
+		margin-bottom:0.3em;
+	}
+}
+.servicioLandingCuerpo{
+	@include font-Rubik(300);
+	font-size:1.1em;
+	color:$gris;
+	ul{
+		padding: 1rem;
+		line-height: 2em;
+		border-bottom: 1px solid #5e5e5e;
+	}
+	.servicioLandingPrecio{
+		font-size: 1.2em;
+		width: max-content;
+		padding: 0.5em 1em;
+		border: 1px solid $gris;
+		border-radius: 8px;
+		margin: auto;
+		span{
+			color: #7b8084;
+		}
+	}
+	.servicioLandingGratis{
+		padding:0.3em;
+		font-size:0.8em;
+		width: max-content;
+		margin:auto;
+	}
+	.servicioLandingBotonLoQuiero{
+		@include elBoton(0.5em, 1em);	
+	}	
+}
+#divInternetEmpresas{
+	background-image: 
+	linear-gradient(90deg, rgba(58,198,233,0.3) 22%, rgba(0,0,0,0.8) 81%),
+	url("../media/wallpaper2.jpg");
+	background-position: center left;
+	background-size:cover;
+	width: 100%;
+}
+#divInformacionLanding{
+	background-image: 
+	linear-gradient(180deg, rgba(0,0,0,0.4) 27%, rgba(16,43,60,0.3) 75%),
+	url("../media/wallpaper4.jpg");
+	background-position: bottom center;
+	background-size:cover;
+	padding-bottom: 4rem;
+	width: 100%;
+}
+.carousel-inner{
+	border-radius: 16px;
+	background-color: rgba(#000, 0.5);
+	padding-bottom: 5rem;
+}
+.tituloCarousel{
+	text-align: center;
+	color: $gris;
+	margin: 2rem;
+	font-size: 200%;
+	@include font-Montserrat(100);
+}
+.textCarousel{
+	text-align: left;
+	color: $gris;
+	padding: 0em 3.5em;
+	font-size: 100%;
+	@include font-Montserrat(100);
+}
+.botonCarousel{
+	width: max-content;
+	margin: 1rem auto;
+	margin-top: 4rem;
+	a{
+		padding:0.6rem 1rem;
+		border: 1px solid $negrito;
+		background-color: $celeste;
+		border-radius: 16px;
+		@include font-Montserrat(500);
+		color: $azul-oscuro;
+		text-decoration: none;
+		&:hover{
+			color:$negrito;
+			background-color: #f4f4f4;
+			transition: all 250ms ease-in-out;
+		}
+	}
+}
+#accordionExample{
+	background-color: rgba(#000, 0.1);
+}
+.accordion-item{
+	background-color: rgba(#000, 0.66);
+	color:$gris;
+}
+.accordion-button{
+	@include font-Rubik(300);
+	background-color:rgba($gris, 0.3);
+	outline:none;
+	color:$gris;
+	&:focus{
+		box-shadow: none;
+    	border-color: rgba(0,0,0,.125);
+	}
+}
+.accordion-button:not(.collapsed){
+	background-color:rgba($gris, 0.6);
+	color:$celeste;
+}
+
+
+
+/* FOOTER */
+footer{
+	border-top: 2px solid black;
+	background-color: $azul-oscuro;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.imgFooter{
+ 	height: 50px;
+ 	margin-right: 10px;
+}
+
+p.tituloFooter{
+	font-size: 200%;
+    color: #3ac6e9;
+    @extend .font-Fjalla;
+    border-bottom: 1px solid $gris;
+    margin-bottom: 10px;
+}
+p.textoFooter{
+    @include font-Montserrat(500);
+	font-size: 150%;
+    color: #ced8e1;
+    line-height: 1em;
+}
+.aFooter{
+	text-decoration:none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 150%;
+    color: #ced8e1;
+    line-height: 1em;
+}
+#headingOne{
+	background-color: #11222d;
+}
+.accordionTitle{
+	font-size:18px;
+	color:#3ac6e9;
+}
+.card{
+	background-color:#040117;
+}
+
+/* CSS ZONA DE COBERTURA -------- */
+.divFondoCobertura{
+	background-image: linear-gradient(180deg, rgba(208,0,214,0.20) 21%, rgba(0,0,0,0.25) 84%),
+	url("../media/wallpaper1.jpg");
+	padding-bottom: 1rem;
+}
+#imgCobertura{
+	width: 80%;
+	max-width: 500px;
+	margin:auto;
+	border: 2px solid $celeste;
+}
+.coberturaText{
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+.divFinCobertura{
+	@include font-Montserrat(100);
+	color: $gris;
+	padding: 2rem 1rem;
+	font-size: 2rem;
+	border-radius: 2rem;
+	background-color: rgba(#000, 0.4);
+	a{
+		color: $celeste;
+		text-decoration: none;
+	}
+}
+
+/* CSS FORMULARIO */
+
+.divFormulario{
+	background-image: 
+	linear-gradient(180deg, rgba(231,231,231,0.6) 11%, rgba(130,189,227,0.3) 91%),
+	url("../media/wallpaper3.jpg");
+	background-size: cover;
+	background-position: center left;
+}
+.containerMio{
+	padding: 1rem 0rem;
+	width:80%;
+	margin:auto;
+}
+.tituloForm{
+	@include font-Montserrat(700);
+	color: $negrito;
+	font-size: 4rem;
+}
+.textoForm{
+	@include font-Montserrat(500);
+	color: #3a4046;
+	font-size: 2rem;
+}
+.elFormulario{
+	padding: 0;
+	label{
+		font-size: 1.2em;
+		padding-left: 0.4rem;
+		@include font-Rubik(300);
+	}
+	input{
+		width: 66%;
+		padding: 4px 8px;
+		&:focus{
+			box-shadow: none;
+			outline-color: rgba(blue, 0.5);
+		}
+		&[type=checkbox]{
+			width: max-content;
+			padding: 0;
+			margin:0;
+		}
+	}
+	select{
+		width: 20%;
+		outline-color: rgba(blue, 0.5);
+	}
+	button:hover{
+		color:black;
+		background-color: white;
+		transition: 200ms linear;
+	}
+
+}
+/* SERVICIO 1 */
+
+.bi-alarm-fill{
+	width: 100%;
+}
+.fondoServicioUno{
+	background-image:
+		linear-gradient(180deg, rgba(208,0,214,0.20) 21%, rgba(0,0,0,0.25) 84%),
+		url("../media/wallpaper1.jpg");
+	background-size: cover;
+	background-position: top left;
+
+}
+.tituloServicio{
+	color: $celeste;
+	@extend .font-Fjalla;
+	font-size: 2.5rem;
+	padding-left: 2rem;
+	border-bottom: 1px solid $gris;
+}
+.logoBootstrap{
+	padding: 1rem;
+	display: block;
+	width:50%;
+	margin: auto;
+	color: $gris;
+	border-bottom: 1px solid $gris;
+}
+#herramientas{
+	padding: 2rem;
+}
+.contenedorCuerpoServicio{
+	h5{
+		color: $celeste;
+		@include font-Rubik(500);
+		padding-top: 4px;
+		padding-left: 15%;
+	}
+	ul{
+		@include font-Montserrat(300);
+		color: $gris;
+		padding: 0em 4em;
+	}
+}
+.servicioPrecio{
+	color: $gris;
+	font-size: 1.5em;
+	@include font-Montserrat(500);
+	width: max-content;
+	margin: auto;
+	padding: 0.5em;
+	border: 1px solid $gris;
+	border-radius: 8px;
+	span{
+		color: grey;
+	}
+}
+#aclaracion{
+	color: $gris;
+	font-size: 0.7em;
+	text-align: center;
+}
+.contenedorServicio{
+	margin-top: 1rem;
+	border-radius: 16px;
+	background-color: rgba(#000, 0.4);
+	height: 96%;
+	padding-bottom: 3rem;
+}
+.contactoFormulario{
+	@include font-Rubik(500);
+	color: $gris;
+	padding: 1rem;
+	font-size: 3rem;
+	width: 75%;
+	margin: auto;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+.botonFormulario{
+	color: $azul-oscuro;
+	background-color: $celeste;
+	padding: 0.5rem 1rem;
+	text-decoration: none;
+	border-radius: 8px;
+	font-size: 0.8em;
+	@extend .font-Fjalla;
+	&:hover{
+		background-color: $negrito;
+		color: $celeste;
+		transition: 200ms linear;
+
+	}
+}
+html{
+	background-color: $azul-oscuro;
+}
+
+@import "mediaQueries";

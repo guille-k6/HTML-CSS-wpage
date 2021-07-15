@@ -1,0 +1,71 @@
+@import "variables";
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+	.botonCarousel a{
+		font-size: 0.7em;
+	}
+	p.tituloLanding{
+	margin:auto;
+	font-size:140%;
+	}
+	.elFormulario{
+		input{
+			width:90%;
+		}
+		select{
+			width: 90%;
+		}
+	}
+	.tituloForm{
+		font-size: 2.5rem;
+	}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1020px){
+	p.tituloLanding{
+	margin:auto;
+	font-size:200%;
+	}
+	p.textServicioLanding{
+		font-size:300%;
+		}
+		.elFormulario{
+		input{
+			width: 90%;
+		}
+		select{
+			width: 60%;
+		}
+	}
+}
+
+
+
+@media only screen and (min-width: 1000px){
+	#divTituloImg{
+		background-position: center right;
+	}
+	p.tituloLanding{
+	margin:auto;
+	font-size:300%;
+	}
+	p.textServicioLanding{
+	font-size:340%;
+	}
+	p#aLaDerecha{
+		text-align: right;
+    }
+    p#aLaIzquierda{
+    	text-align: left;
+    }
+	.servicioLandingBotonLoQuiero {
+    	margin:1em; /*profe, acá no le puedo redefinir el margin, sabes por que puede ser? */
+    }
+}
+
+@media only screen and (min-width: 600px){
+	.textCarousel{
+		margin: 0em 3em;
+	}
+}
