@@ -15,8 +15,13 @@
 
 /* The element to apply the animation to */
 .swipe:hover{
-	position: relative;
-	animation-name: swipeUp;
-  	animation-duration: 0.7s;
-  	animation-iteration-count: 2;
+			a{
+				.botonUp{
+						position: relative;
+						animation-name: swipeUp;
+  						animation-duration: 1s;
+  						animation-iteration-count: infinite;	
+				}
+
+			}
 }
