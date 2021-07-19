@@ -1,6 +1,9 @@
 @import "variables";
 
 @media only screen and (min-width: 320px) and (max-width: 767px){
+	.botonFooter{
+		display:none;
+	}
 	.botonCarousel a{
 		font-size: 0.7em;
 	}
@@ -19,9 +22,7 @@
 	.tituloForm{
 		font-size: 2.5rem;
 	}
-	.botonFooter{
-		display:none;
-	}
+
 }
 
 

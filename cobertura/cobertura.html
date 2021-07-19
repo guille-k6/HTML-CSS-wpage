@@ -24,7 +24,7 @@
             <div class="navbar-nav">
               <a class="nav-link botonHeader" aria-current="page" href="../index.html">Home</a>
               <a class="nav-link botonHeader" href="../index.html#servicios">Servicios</a>
-              <a class="nav-link active botonHeader " href="../cobertura/cobertura.html">Cobertura</a>
+              <a class="nav-link activeMio botonHeader " href="../cobertura/cobertura.html">Cobertura</a>
               <a class="nav-link botonHeader" href="../formulario/formulario.html">Formulario</a>
             </div>
           </div>
@@ -35,35 +35,33 @@
 	<section>
     <div class="divFondoCobertura">
       <div id="contenedorTituloServicio" class="container-fluid">
-        <p class="tituloServicioLanding">Netservices <span class="tipoPlan">ROSARIO</span></p>
+        <p class="tituloServicioLanding wow animate__animated animate__zoomIn">Netservices <span class="tipoPlan">ROSARIO</span></p>
       </div>
-      <div class="row justify-content-center mx-3">
-        <div class="col-11">
-          <p class="textServicioLanding animate__animated animate__zoomIn">El internet más rapido, al alcance de tu mano.</p>
+      <div class="container">
+        <h3 class="tituloCobertura ">Zona de cobertura Netservices</h3>
+        <p class="textoCobertura">Esta es el área de la ciudad de <span class="fw-bold">Rosario</span> que actualmente posee las instalaciones y el cableado necesario para obtener un servicio óptimo, tanto sea del plan <span class="badge bg-primary">Home</span> como el <span class="badge bg-danger">BUSINESS</span>.</p>
+        <div class="row miArea mx-1">
+          <div class="col-12 col-md-6">
+            <iframe class="googleMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26785.351139600065!2d-60.66368333569323!3d-32.94655007893829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab15def14419%3A0x97324161fb3ed066!2sCentro%2C%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1626722822101!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="col-12 col-md-6">
+            <h4 class="tituloCalles">Calles que limitan el servicio</h4>
+            <ul class="listaCalles wow animate__animated animate__fadeInRight">
+                <li>Av. Wheelwright</li>
+                <li>Av. Pellegrini</li>
+                <li>Av. Ovidio Lagos</li>
+                <li>Bv. 27 de febrero</li>
+                <li>Vera Mujica</li>
+                <li>Córdoba</li>
+                <li>Bv. Oroño</li>
+            </ul>
+          </div>
         </div>
-        <div class="col-8 col-lg-6">
-            <div class="imgCoberturaContainer d-flex justify-content-center py-3">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26785.351139600065!2d-60.66368333569323!3d-32.94655007893829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab15def14419%3A0x97324161fb3ed066!2sCentro%2C%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1626722822101!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
+        <p class="tituloCalles">¿Todavía no elegiste tu plan? Elegí tu plan Netservices y completá el <a>formulario</a> de contacto!</p>
+        <div class="d-flex justify-content-evenly my-4 flex-wrap">
+            <a class="nombrePlan bg-primary my-3 wow animate__animated animate__slideInLeft" href="../servicio1/servicio1.html">Netservices HOME</a>
+            <a class="nombrePlan bg-danger my-3 wow animate__animated animate__slideInRight" href="../servicio2/servicio2.html">Netservices BUSINESS</a>           
         </div>
-        <div class="col-10 col-lg-6 py-3">
-          <h3 class="servicioLandingTitulo coberturaText">Zonas cubiertas en rosario:</h3>
-          <ul class="servicioLandingCuerpo coberturaText">
-            <li>Zona centro</li>
-            <li>del Abasto</li>
-            <li>Republica de la 6°</li>
-            <li>España y hospitales</li>
-            <li>Gral. José de San Martin</li>
-            <li>Alberto Olmedo</li>
-            <li>Las malvinas</li>
-          </ul>
-        </div>
-        <div class="col-11 divFinCobertura">
-          En caso de que tengas alguna duda, no dudes en consultarnos, <a href="#contacto">CONTACTATE</a>
-        </div>
-      </div>
-
-
       </div>
     </div>
 	</section>
@@ -71,37 +69,49 @@
 
 
     <footer>
-      <div class="container-fluid container row mx-auto">
-        <div class="col-12 col-md-6">
-          <p class="tituloFooter">OFICINA</p>
-          <p class="textoFooter">Dirección: Av. Siempreviva 742</p>
-          <p class="textoFooter">Teléfono: 123 4567890</p>
-        </div>
-        <div class="col-12 col-md-6">
-          <p class="tituloFooter" id="contacto">CONTACTO</p>
-          <div class="d-flex flex-column">
-            <div class="textoFooter py-1">
-             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-envelope imgFooter color-email" viewBox="0 0 16 16">
-                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
-              </svg> <span class="aFooter">netsvces@gmail.com</span>
-            </div>  
-            <div class="textoFooter py-1">
-              <a class="aFooter" href="http://www.twitter.com" target="blank" rel="noreferrer noopener nofollow">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-twitter imgFooter color-twitter" viewBox="0 0 16 16">
-                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
-                </svg>Twitter
-              </a>
-            </div>
+      <div class="container">
+        <div class="row mx-auto">
+          <div class="col-12 col-md-6">
+            <p class="tituloFooter">OFICINA</p>
+            <p class="textoFooter fw-normal">Dirección:<span class="fw-light"> Av. Siempreviva 742</span></p>
+            <p class="textoFooter fw-normal">Teléfono:<span class="fw-light"> 123 4567890</span></p>
+          </div>
+          <div class="col-12 col-md-6">
+            <p class="tituloFooter" id="contacto">CONTACTO</p>
+            <div class="d-flex flex-column">
               <div class="textoFooter py-1">
-                <a class="aFooter" href="http://www.facebook.com" target="blank" rel="noreferrer noopener nofollow">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-facebook imgFooter color-facebook" viewBox="0 0 16 16">
-                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-                  </svg>Facebook
+                <a class="aFooter" href="mailto:netsvces@gmail.com" target="blank" rel="noreferrer noopener nofollow">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-envelope imgFooter color-email" viewBox="0 0 16 16">
+                  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                  </svg>netsvces@gmail.com
                 </a>
-              </div>            
+              </div>  
+              <div class="textoFooter py-1">
+                <a class="aFooter" href="http://www.twitter.com" target="blank" rel="noreferrer noopener nofollow">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-twitter imgFooter color-twitter" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                  </svg>Twitter
+                </a>
+              </div>
+                <div class="textoFooter py-1">
+                  <a class="aFooter" href="http://www.facebook.com" target="blank" rel="noreferrer noopener nofollow">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-facebook imgFooter color-facebook" viewBox="0 0 16 16">
+                      <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                    </svg>Facebook
+                  </a>
+                </div>            
+            </div>
+          </div>
+          <p class="textoFooter py-2 text-center fs-6">©COPYRIGHT: Todos los derechos reservados. Guillermo Casey.</p>
+          <div class="botonFooter swipe">
+            <a href="#elHeader" class="">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chevron-double-up botonUp" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"/>
+                <path fill-rule="evenodd" d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+              </svg>
+            </a>
           </div>
         </div>
-        <p class="textoFooter my-1 mb-1 text-left fs-6">©COPYRIGHT: Todos los derechos reservados. Guillermo Casey.</p>
       </div>
     </footer>
     <script src="../js/javaBootstrap.min.js">
@@ -113,3 +123,9 @@
 </body>
 
 </html>
+
+
+<!--
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26785.351139600065!2d-60.66368333569323!3d-32.94655007893829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab15def14419%3A0x97324161fb3ed066!2sCentro%2C%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1626722822101!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+-->
