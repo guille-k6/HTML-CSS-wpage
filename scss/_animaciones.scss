@@ -1,0 +1,22 @@
+@keyframes swipeUp {
+  0% {
+  	top: 0px;
+  	left:0px;
+ 	}
+  50% {
+  	top: -6px;
+  	left: 0px;
+    }
+  100% {
+  	top: 0px;
+  	left: 0px;
+    }
+}
+
+/* The element to apply the animation to */
+.swipe:hover{
+	position: relative;
+	animation-name: swipeUp;
+  	animation-duration: 0.7s;
+  	animation-iteration-count: 2;
+}
