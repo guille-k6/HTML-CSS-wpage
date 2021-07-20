@@ -1,1 +1,979 @@
-@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&display=swap");@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700;900&display=swap");.font-Fjalla,p.tituloFooter,.tituloServicio,.botonFormulario{font-family:'Fjalla One', sans-serif;transform:skew(-10deg)}.color-email{color:#7d7d7d}.color-twitter{color:#08a0e9}.color-facebook{color:#3B5998}.weight-1{font-weight:300}.weight-2{font-weight:500}.weight-3{font-weight:700}@keyframes swipeUp{0%{top:0px;left:0px}50%{top:-6px;left:0px}100%{top:0px;left:0px}}.swipe:hover a .botonUp{position:relative;animation-name:swipeUp;animation-duration:1s;animation-iteration-count:infinite}#elHeader{background:linear-gradient(294deg, #173a50 18%, #00121d 95%);padding:0px;font-family:'Rubik', sans-serif;font-weight:300}#logoNetservices{height:40px;padding:0}.botonHeader{width:max-content;padding:8px !important;margin:0px 4px;position:relative}.botonHeader::before{content:'';position:absolute;left:0;right:0;bottom:0;height:2px;background-color:#ced8e1;transform:scaleX(0);transition:transform 220ms ease-in-out;transform-origin:left}.botonHeader:active::before,.botonHeader:hover::before{transform:scaleX(1)}.activeMio{color:white !important;position:relative}.activeMio::after{content:'';position:absolute;left:0;right:0;bottom:0;height:2px;background-color:#3ac6e9}#divTituloImg{background-image:linear-gradient(94deg, rgba(33,37,41,0.9) 6%, rgba(58,198,233,0.3) 79%),url("../media/wallpaper3.jpg");background-size:cover;background-position:bottom;width:100%;height:40%}.tituloLanding{font-family:'Montserrat', sans-serif;font-weight:700;font-size:180%;color:#e7e7e7}.fotoFibraOptica{padding-top:1rem;display:block;width:100%;max-width:30vh}#divInternetHogares{background-image:linear-gradient(180deg, rgba(208,0,214,0.2) 21%, rgba(0,0,0,0.25) 84%),url("../media/wallpaper1.jpg");width:100%}.tipoPlan{font-size:1.1em;color:white}#contenedorTituloServicio{background:rgba(0,0,0,0.4);margin:0;width:100%}.tituloServicioLanding{width:100%;font-family:'Rubik', sans-serif;font-weight:500;color:#ced8e1;padding:1rem;font-size:180%;text-align:center}.textServicioLanding{font-family:'Montserrat', sans-serif;font-weight:300;color:white;font-size:200%}.fondoServicioLanding{background-color:rgba(0,0,0,0.5);padding:1rem;border-radius:8px;margin-bottom:5rem}.fondoServicioLanding:hover{background-color:rgba(0,0,0,0.75);transform:scale(1.1);transition:all 250ms ease-in-out}.servicioLandingTitulo{font-family:'Rubik', sans-serif;font-weight:500;font-size:1.3em;color:#ced8e1;border-bottom:1px solid #5e5e5e}.servicioLandingTitulo .elTitulo{color:#ced8e1;padding:0px 10px;margin-bottom:0.3em}.servicioLandingCuerpo{font-family:'Rubik', sans-serif;font-weight:300;font-size:1.1em;color:#ced8e1}.servicioLandingCuerpo ul{padding:1rem;line-height:2em;border-bottom:1px solid #5e5e5e}.servicioLandingCuerpo .servicioLandingPrecio{font-size:1.2em;width:max-content;padding:0.5em 1em;border:1px solid #ced8e1;border-radius:8px;margin:auto}.servicioLandingCuerpo .servicioLandingPrecio span{color:#7b8084}.servicioLandingCuerpo .servicioLandingGratis{padding:0.3em;font-size:0.8em;width:max-content;margin:auto}.servicioLandingCuerpo .servicioLandingBotonLoQuiero{width:max-content;padding:1rem;margin:auto}.servicioLandingCuerpo .servicioLandingBotonLoQuiero a{text-decoration:none;padding:.5em 1em;background-color:#3ac6e9;color:#212529;border:1px solid #ced8e1;border-radius:16px}.servicioLandingCuerpo .servicioLandingBotonLoQuiero a:hover{background-color:#e7e7e7;color:#102b3c;transition:all 250ms ease-in-out}#divInternetEmpresas{background-image:linear-gradient(90deg, rgba(58,198,233,0.3) 22%, rgba(0,0,0,0.8) 81%),url("../media/wallpaper2.jpg");background-position:center left;background-size:cover;width:100%}#divInformacionLanding{background-image:linear-gradient(180deg, rgba(0,0,0,0.4) 27%, rgba(16,43,60,0.3) 75%),url("../media/wallpaper4.jpg");background-position:bottom center;background-size:cover;padding-bottom:4rem;width:100%}.carousel-inner{border-radius:16px;background-color:rgba(0,0,0,0.5);padding-bottom:5rem}.tituloCarousel{text-align:center;color:#ced8e1;margin:2rem;font-size:200%;font-family:'Montserrat', sans-serif;font-weight:100}.textCarousel{text-align:left;color:#ced8e1;padding:0em 3.5em;font-size:100%;font-family:'Montserrat', sans-serif;font-weight:100}.botonCarousel{width:max-content;margin:1rem auto;margin-top:4rem}.botonCarousel a{padding:0.6rem 1rem;border:1px solid #212529;background-color:#3ac6e9;border-radius:16px;font-family:'Montserrat', sans-serif;font-weight:500;color:#102b3c;text-decoration:none}.botonCarousel a:hover{color:#212529;background-color:#f4f4f4;transition:all 250ms ease-in-out}#accordionExample{background-color:rgba(0,0,0,0.1)}.accordion-item{background-color:rgba(0,0,0,0.66);color:#ced8e1}.accordion-button{font-family:'Rubik', sans-serif;font-weight:300;background-color:rgba(206,216,225,0.3);outline:none;color:#ced8e1}.accordion-button:focus{box-shadow:none;border-color:rgba(0,0,0,0.125)}.accordion-button:not(.collapsed){background-color:rgba(206,216,225,0.6);color:#3ac6e9}footer{border-top:2px solid #000;background:linear-gradient(0deg, #001c2d 18%, #003556 95%);padding-top:10px;padding-bottom:10px;position:relative}.imgFooter{height:30px;margin-right:10px}p.tituloFooter{font-size:200%;color:#3ac6e9;border-bottom:1px solid #ced8e1;margin-bottom:10px}p.textoFooter{font-family:'Montserrat', sans-serif;font-weight:500;font-size:150%;color:#ced8e1;line-height:1em}.aFooter{text-decoration:none;font-family:'Montserrat', sans-serif;font-size:150%;color:#ced8e1;line-height:1em}.aFooter:hover{text-decoration:underline;color:#ced8e1}.noUnderline:hover{text-decoration:none}.botonFooter{position:absolute;width:3%;margin:0;padding:0;top:45%;left:92%;border-radius:100%;transition:all 200ms linear}.botonFooter a{width:100%;margin:0;padding:0}.botonFooter a .botonUp{width:100%;padding:5px;color:#ced8e1;overflow:hidden}#headingOne{background-color:#11222d}.accordionTitle{font-size:18px;color:#3ac6e9}.card{background-color:#040117}.divFondoCobertura{background-image:linear-gradient(180deg, rgba(208,0,214,0.2) 21%, rgba(0,0,0,0.25) 84%),url("../media/wallpaper1.jpg");padding-bottom:1rem}.tituloCobertura{padding:1rem;font-size:2rem;margin-bottom:2rem;color:#ced8e1;font-family:'Montserrat', sans-serif;font-weight:500;border-bottom:1px solid #3ac6e9}.textoCobertura{color:#ced8e1;font-family:'Montserrat', sans-serif;font-weight:300;font-size:1.5em;margin-bottom:2em}.googleMap{display:block;border:2px solid #212529;border-radius:8px;width:100%;height:400px;margin:auto}.tituloCalles{padding:1rem;font-size:2em;border-bottom:1px solid #ced8e1;color:#ced8e1;font-family:'Montserrat', sans-serif;font-weight:300}.listaCalles{color:#ced8e1;font-family:'Rubik', sans-serif;font-weight:300;font-size:1.2em}.miArea{background-color:rgba(0,0,0,0.33);padding:1rem 0rem;border-radius:10px;border:1px solid #3ac6e9}.nombrePlan{text-decoration:none;position:relative;padding:1rem;color:#ced8e1;border-radius:8px;font-family:'Rubik', sans-serif;font-weight:500;font-size:1.5em;z-index:1}.nombrePlan::before{content:'';position:absolute;border-radius:8px;top:0;left:0;bottom:0;right:0;z-index:-1;background-color:#3ac6e9;transform:scaleX(0);transform-origin:left;transition:transform 300ms ease-in-out}.nombrePlan:hover::before,.nombrePlan:focus::before{transform:scaleX(1)}.nombrePlan:hover{color:#102b3c}.divFormulario{background-image:linear-gradient(180deg, rgba(231,231,231,0.6) 11%, rgba(130,189,227,0.3) 91%),url("../media/wallpaper3.jpg");background-size:cover;background-position:center left}.containerMio{padding:1rem 0rem;width:80%;margin:auto}.tituloForm{font-family:'Montserrat', sans-serif;font-weight:700;color:#212529;font-size:4rem}.textoForm{font-family:'Montserrat', sans-serif;font-weight:500;color:#3a4046;font-size:2rem}.elFormulario{padding:0}.elFormulario label{font-size:1.2em;padding-left:0.4rem;font-family:'Rubik', sans-serif;font-weight:300}.elFormulario input{width:66%;padding:4px 8px}.elFormulario input:focus{box-shadow:none;outline-color:rgba(0,0,255,0.5)}.elFormulario input[type=checkbox]{width:max-content;padding:0;margin:0}.elFormulario select{width:20%;outline-color:rgba(0,0,255,0.5)}.elFormulario button:hover{color:black;background-color:white;transition:200ms linear}.bi-alarm-fill{width:100%}.fondoServicioUno{background-image:linear-gradient(180deg, rgba(208,0,214,0.2) 21%, rgba(0,0,0,0.25) 84%),url("../media/wallpaper1.jpg");background-size:cover;background-position:top left}.tituloServicio{color:#3ac6e9;font-size:2.5rem;padding-left:2rem;border-bottom:1px solid #ced8e1}.logoBootstrap{padding:1rem;display:block;width:50%;margin:auto;color:#ced8e1;border-bottom:1px solid #ced8e1}#herramientas{padding:2rem}.contenedorCuerpoServicio h5{color:#3ac6e9;font-family:'Rubik', sans-serif;font-weight:500;padding-top:4px;padding-left:15%}.contenedorCuerpoServicio ul{font-family:'Montserrat', sans-serif;font-weight:300;color:#ced8e1;padding:0em 4em}.servicioPrecio{color:#ced8e1;font-size:1.5em;font-family:'Montserrat', sans-serif;font-weight:500;width:max-content;margin:auto;padding:0.5em;border:1px solid #ced8e1;border-radius:8px}.servicioPrecio span{color:grey}#aclaracion{color:#ced8e1;font-size:0.7em;text-align:center}.contenedorServicio{margin-top:1rem;border-radius:16px;background-color:rgba(0,0,0,0.4);height:96%;padding-bottom:3rem}.contactoFormulario{font-family:'Rubik', sans-serif;font-weight:500;color:#ced8e1;padding:1rem;font-size:3rem;width:75%;margin:auto;margin-top:10px;padding-bottom:10px}.botonFormulario{color:#102b3c;background-color:#3ac6e9;padding:0.5rem 1rem;text-decoration:none;border-radius:8px;font-size:0.8em}.botonFormulario:hover{background-color:#212529;color:#3ac6e9;transition:200ms linear}html{background-color:#001c2d}@media only screen and (min-width: 320px) and (max-width: 767px){.botonFooter{display:none}.botonCarousel a{font-size:0.7em}p.tituloLanding{margin:auto;font-size:140%}.elFormulario input{width:90%}.elFormulario select{width:90%}.tituloForm{font-size:2.5rem}}@media only screen and (min-width: 768px) and (max-width: 1020px){p.tituloLanding{margin:auto;font-size:200%}p.textServicioLanding{font-size:300%}.elFormulario input{width:90%}.elFormulario select{width:60%}}@media only screen and (min-width: 1000px){#divTituloImg{background-position:center right}p.tituloLanding{margin:auto;font-size:300%}p.textServicioLanding{font-size:340%}p#aLaDerecha{text-align:right}p#aLaIzquierda{text-align:left}.servicioLandingBotonLoQuiero{margin:1em}}@media only screen and (min-width: 600px){.textCarousel{margin:0em 3em}}
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+/* line 2, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_main.scss */
+.font-Fjalla, p.tituloFooter, .tituloServicio, .botonFormulario {
+  font-family: 'Fjalla One', sans-serif;
+  transform: skew(-10deg);
+}
+
+/* line 21, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_main.scss */
+.weight-1 {
+  font-weight: 300;
+}
+
+/* esto genera weight-1 = 300, weight-2 = 500 y weight-3 = 700, es otra forma de darle peso a las tipografías. */
+/* line 21, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_main.scss */
+.weight-2 {
+  font-weight: 500;
+}
+
+/* esto genera weight-1 = 300, weight-2 = 500 y weight-3 = 700, es otra forma de darle peso a las tipografías. */
+/* line 21, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_main.scss */
+.weight-3 {
+  font-weight: 700;
+}
+
+/* esto genera weight-1 = 300, weight-2 = 500 y weight-3 = 700, es otra forma de darle peso a las tipografías. */
+@keyframes swipeUp {
+  0% {
+    top: 0px;
+    left: 0px;
+  }
+  50% {
+    top: -6px;
+    left: 0px;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}
+
+/* The element to apply the animation to */
+/* line 19, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_animaciones.scss */
+.swipe:hover a .botonUp {
+  position: relative;
+  animation-name: swipeUp;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+/* -----HEADER ------*/
+/* line 7, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+#elHeader {
+  background: linear-gradient(294deg, #173a50 18%, #00121d 95%);
+  padding: 0px;
+  /*300 500 700*/
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+}
+
+/* line 12, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+#logoNetservices {
+  height: 40px;
+  padding: 0;
+}
+
+/* line 17, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.botonHeader {
+  width: max-content;
+  padding: 8px !important;
+  margin: 0px 4px;
+  position: relative;
+}
+
+/* line 22, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.botonHeader::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background-color: #ced8e1;
+  transform: scaleX(0);
+  transition: transform 220ms ease-in-out;
+  transform-origin: left;
+}
+
+/* line 35, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.botonHeader:active::before,
+.botonHeader:hover::before {
+  transform: scaleX(1);
+}
+
+/* line 40, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.activeMio {
+  color: white !important;
+  position: relative;
+}
+
+/* line 44, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.activeMio::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background-color: #3ac6e9;
+}
+
+/*----------------*/
+/*----------------*/
+/* line 56, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+#divTituloImg {
+  background-image: linear-gradient(94deg, rgba(33, 37, 41, 0.9) 6%, rgba(58, 198, 233, 0.3) 79%), url("../media/wallpaper3.jpg");
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 40%;
+}
+
+/* line 65, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.tituloLanding {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 180%;
+  color: #e7e7e7;
+}
+
+/* line 68, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.fotoFibraOptica {
+  padding-top: 1rem;
+  display: block;
+  width: 100%;
+  max-width: 30vh;
+}
+
+/* line 74, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+#divInternetHogares {
+  background-image: linear-gradient(180deg, rgba(208, 0, 214, 0.2) 21%, rgba(0, 0, 0, 0.25) 84%), url("../media/wallpaper1.jpg");
+  width: 100%;
+}
+
+/* line 80, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.tipoPlan {
+  font-size: 1.1em;
+  color: white;
+}
+
+/* line 84, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+#contenedorTituloServicio {
+  background: rgba(0, 0, 0, 0.4);
+  margin: 0;
+  width: 100%;
+}
+
+/* line 89, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.tituloServicioLanding {
+  width: 100%;
+  /*300 500 700*/
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  color: #ced8e1;
+  padding: 1rem;
+  font-size: 180%;
+  text-align: center;
+}
+
+/* line 97, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.textServicioLanding {
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 200%;
+}
+
+/* line 102, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.fondoServicioLanding {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 5rem;
+}
+
+/* line 107, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.fondoServicioLanding:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+  transform: scale(1.1);
+  transition: all 250ms ease-in-out;
+}
+
+/* line 113, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.servicioLandingTitulo {
+  /*300 500 700*/
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 1.3em;
+  color: #ced8e1;
+  border-bottom: 1px solid #5e5e5e;
+}
+
+/* line 118, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.servicioLandingTitulo .elTitulo {
+  color: #ced8e1;
+  padding: 0px 10px;
+  margin-bottom: 0.3em;
+}
+
+/* line 124, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.servicioLandingCuerpo {
+  /*300 500 700*/
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-size: 1.1em;
+  color: #ced8e1;
+}
+
+/* line 128, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.servicioLandingCuerpo ul {
+  padding: 1rem;
+  line-height: 2em;
+  border-bottom: 1px solid #5e5e5e;
+}
+
+/* line 133, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.servicioLandingCuerpo .servicioLandingPrecio {
+  font-size: 1.2em;
+  width: max-content;
+  padding: 0.5em 1em;
+  border: 1px solid #ced8e1;
+  border-radius: 8px;
+  margin: auto;
+}
+
+/* line 140, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.servicioLandingCuerpo .servicioLandingPrecio span {
+  color: #7b8084;
+}
+
+/* line 144, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.servicioLandingCuerpo .servicioLandingGratis {
+  padding: 0.3em;
+  font-size: 0.8em;
+  width: max-content;
+  margin: auto;
+}
+
+/* line 153, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+#divInternetEmpresas {
+  background-image: linear-gradient(90deg, rgba(58, 198, 233, 0.3) 22%, rgba(0, 0, 0, 0.8) 81%), url("../media/wallpaper2.jpg");
+  background-position: center left;
+  background-size: cover;
+  width: 100%;
+}
+
+/* line 161, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+#divInformacionLanding {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 27%, rgba(16, 43, 60, 0.3) 75%), url("../media/wallpaper4.jpg");
+  background-position: bottom center;
+  background-size: cover;
+  padding-bottom: 4rem;
+  width: 100%;
+}
+
+/* line 170, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.carousel-inner {
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 5rem;
+}
+
+/* line 175, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.tituloCarousel {
+  text-align: center;
+  color: #ced8e1;
+  margin: 2rem;
+  font-size: 200%;
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+/* line 182, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.textCarousel {
+  text-align: left;
+  color: #ced8e1;
+  padding: 0em 3.5em;
+  font-size: 100%;
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+/* line 189, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.botonCarousel {
+  width: max-content;
+  margin: 1rem auto;
+  margin-top: 4rem;
+}
+
+/* line 193, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.botonCarousel a {
+  padding: 0.6rem 1rem;
+  border: 1px solid #212529;
+  background-color: #3ac6e9;
+  border-radius: 16px;
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #102b3c;
+  text-decoration: none;
+}
+
+/* line 201, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.botonCarousel a:hover {
+  color: #212529;
+  background-color: #f4f4f4;
+  transition: all 250ms ease-in-out;
+}
+
+/* line 208, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+#accordionExample {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* line 211, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.accordion-item {
+  background-color: rgba(0, 0, 0, 0.66);
+  color: #ced8e1;
+}
+
+/* line 215, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.accordion-button {
+  /*300 500 700*/
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  background-color: rgba(206, 216, 225, 0.3);
+  outline: none;
+  color: #ced8e1;
+}
+
+/* line 220, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+
+/* line 225, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.accordion-button:not(.collapsed) {
+  background-color: rgba(206, 216, 225, 0.6);
+  color: #3ac6e9;
+}
+
+/* FOOTER */
+/* line 233, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+footer {
+  border-top: 2px solid #000;
+  background: linear-gradient(0deg, #001c2d 18%, #003556 95%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+/* line 240, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.imgFooter {
+  height: 30px;
+  margin-right: 10px;
+}
+
+/* line 245, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+p.tituloFooter {
+  font-size: 200%;
+  color: #3ac6e9;
+  border-bottom: 1px solid #ced8e1;
+  margin-bottom: 10px;
+}
+
+/* line 252, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+p.textoFooter {
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 150%;
+  color: #ced8e1;
+  line-height: 1em;
+}
+
+/* line 258, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.aFooter {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 150%;
+  color: #ced8e1;
+  line-height: 1em;
+}
+
+/* line 264, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.aFooter:hover {
+  text-decoration: underline;
+  color: #ced8e1;
+}
+
+/* line 270, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.noUnderline:hover {
+  text-decoration: none;
+}
+
+/* line 274, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.botonFooter {
+  position: absolute;
+  width: 3%;
+  margin: 0;
+  padding: 0;
+  top: 45%;
+  left: 92%;
+  border-radius: 100%;
+  transition: all 200ms linear;
+}
+
+/* line 285, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.botonFooter a {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 289, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.botonFooter a .botonUp {
+  width: 100%;
+  padding: 5px;
+  color: #ced8e1;
+  overflow: hidden;
+}
+
+/*----------------------*/
+/* line 299, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+#headingOne {
+  background-color: #11222d;
+}
+
+/* line 302, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.accordionTitle {
+  font-size: 18px;
+  color: #3ac6e9;
+}
+
+/* line 306, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.card {
+  background-color: #040117;
+}
+
+/* CSS ZONA DE COBERTURA -------- */
+/* line 311, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.divFondoCobertura {
+  background-image: linear-gradient(180deg, rgba(208, 0, 214, 0.2) 21%, rgba(0, 0, 0, 0.25) 84%), url("../media/wallpaper1.jpg");
+  padding-bottom: 1rem;
+}
+
+/* line 316, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.tituloCobertura {
+  padding: 1rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #ced8e1;
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  border-bottom: 1px solid #3ac6e9;
+}
+
+/* line 324, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.textoCobertura {
+  color: #ced8e1;
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  margin-bottom: 2em;
+}
+
+/* line 330, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.googleMap {
+  display: block;
+  border: 2px solid #212529;
+  border-radius: 8px;
+  width: 100%;
+  height: 400px;
+  margin: auto;
+}
+
+/* line 338, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.tituloCalles {
+  padding: 1rem;
+  font-size: 2em;
+  border-bottom: 1px solid #ced8e1;
+  color: #ced8e1;
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+/* line 345, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.listaCalles {
+  color: #ced8e1;
+  /*300 500 700*/
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
+/* line 350, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.miArea {
+  background-color: rgba(0, 0, 0, 0.33);
+  padding: 1rem 0rem;
+  border-radius: 10px;
+  border: 1px solid #3ac6e9;
+}
+
+/* line 356, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.nombrePlan {
+  text-decoration: none;
+  position: relative;
+  padding: 1rem;
+  color: #ced8e1;
+  border-radius: 8px;
+  /*300 500 700*/
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  z-index: 1;
+}
+
+/* line 366, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.nombrePlan::before {
+  content: '';
+  position: absolute;
+  border-radius: 8px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #3ac6e9;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 300ms ease-in-out;
+}
+
+/* line 380, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.nombrePlan:hover::before, .nombrePlan:focus::before {
+  transform: scaleX(1);
+}
+
+/* line 383, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.nombrePlan:hover {
+  color: #102b3c;
+}
+
+/* CSS FORMULARIO */
+/* line 387, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+#contenedorTituloServicioContacto {
+  background: rgba(206, 206, 206, 0.7);
+}
+
+/* line 390, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.divFormulario {
+  background-image: linear-gradient(180deg, #0c1325cf 11%, #82bde382 91%), url("../media/wallpaper3.jpg");
+  background-size: cover;
+  background-position: center left;
+}
+
+/* line 397, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.containerMio {
+  padding: 1rem 0rem;
+  width: 75%;
+  margin: auto;
+}
+
+/* line 402, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.tituloForm {
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #ced8e1;
+  font-size: 3rem;
+  border-bottom: 2px solid #3ac6e9;
+}
+
+/* line 408, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.textoForm {
+  width: 70%;
+  padding: 1rem;
+  /*300 500 700*/
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  color: #ced8e1;
+  font-size: 2rem;
+}
+
+/* line 415, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.elFormulario {
+  padding: 0;
+}
+
+/* line 417, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.elFormulario label {
+  color: #ced8e1;
+  font-size: 1.2em;
+  padding-bottom: 0.5em;
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+/* line 423, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.elFormulario input {
+  width: 90%;
+  border-radius: 4px;
+  padding: 2px 8px;
+}
+
+/* line 427, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.elFormulario input:focus, .elFormulario input :active {
+  box-shadow: 5px -1px 34px 8px rgba(77, 194, 215, 0.46);
+  -webkit-box-shadow: 5px -1px 34px 8px rgba(77, 194, 215, 0.46);
+  -moz-box-shadow: 5px -1px 34px 8px rgba(77, 194, 215, 0.46);
+  outline: 2px solid;
+  outline-color: rgba(58, 198, 233, 0.6);
+}
+
+/* line 434, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.elFormulario input[type=checkbox] {
+  width: max-content;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 440, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.elFormulario select {
+  width: 20%;
+  outline-color: rgba(0, 0, 255, 0.5);
+}
+
+/* line 444, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.elFormulario button:hover {
+  color: black;
+  background-color: white;
+  transition: 200ms linear;
+}
+
+/* line 450, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.fondoContacto {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* line 455, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.formularioTitle {
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #ced8e1;
+  font-size: 2em;
+  border-bottom: 1px solid #3ac6e9;
+}
+
+/* line 461, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.formularioTexto {
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #ced8e1;
+  font-size: 1.3em;
+  padding: 1rem;
+}
+
+/* line 467, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.containerGadget {
+  background: linear-gradient(90deg, rgba(58, 198, 233, 0.3) 3%, rgba(0, 0, 0, 0) 100%);
+  border-left: 2px solid #3ac6e9;
+  border-radius: 20px;
+  padding: 2% 5%;
+}
+
+/* line 473, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.widgetRedes {
+  background-color: #212529;
+  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid #102b3c;
+  box-shadow: 9px 0px 12px 4px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: 9px 0px 12px 4px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 9px 0px 12px 4px rgba(0, 0, 0, 0.63);
+}
+
+/* line 481, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.widgetRedes:hover {
+  transform: scale(1.05);
+  background-color: #ced8e1;
+  transition: all 180ms ease-in-out;
+}
+
+/* line 484, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.widgetRedes:hover .logoRedGadget {
+  color: #102b3c;
+}
+
+/* line 490, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.miBoton {
+  border: none;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.5em, 0.75em;
+  background-color: #212529;
+  color: #3ac6e9;
+  transition: top, left, right, bottom, 100ms ease-in-out;
+}
+
+/* line 501, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.miBoton::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  border: 2px solid #212529;
+}
+
+/* line 511, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.miBoton:hover::before, .miBoton:focus::before {
+  top: calc(2 * -2);
+  left: calc(2 * -2);
+  right: calc(2 * -2);
+  bottom: calc(2 * -2);
+}
+
+/* line 518, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.logoRedGadget {
+  margin: auto;
+  color: #3ac6e9;
+  width: 100%;
+  max-width: 55px;
+}
+
+/* line 524, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.redesSociales {
+  color: #ced8e1;
+  border-bottom: 2px solid #3ac6e9;
+  /*300 500 700*/
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+}
+
+/* SERVICIO 1 */
+/* line 533, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.bi-alarm-fill {
+  width: 100%;
+}
+
+/* line 536, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.fondoServicioUno {
+  background-image: linear-gradient(180deg, rgba(208, 0, 214, 0.2) 21%, rgba(0, 0, 0, 0.25) 84%), url("../media/wallpaper1.jpg");
+  background-size: cover;
+  background-position: top left;
+}
+
+/* line 544, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.tituloServicio {
+  color: #3ac6e9;
+  font-size: 2.5rem;
+  padding-left: 2rem;
+  border-bottom: 1px solid #ced8e1;
+}
+
+/* line 551, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.logoBootstrap {
+  padding: 1rem;
+  display: block;
+  width: 50%;
+  margin: auto;
+  color: #ced8e1;
+  border-bottom: 1px solid #ced8e1;
+}
+
+/* line 559, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+#herramientas {
+  padding: 2rem;
+}
+
+/* line 563, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.contenedorCuerpoServicio h5 {
+  color: #3ac6e9;
+  /*300 500 700*/
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  padding-top: 4px;
+  padding-left: 15%;
+}
+
+/* line 569, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.contenedorCuerpoServicio ul {
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #ced8e1;
+  padding: 0em 4em;
+}
+
+/* line 575, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.servicioPrecio {
+  color: #ced8e1;
+  font-size: 1.5em;
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  width: max-content;
+  margin: auto;
+  padding: 0.5em;
+  border: 1px solid #ced8e1;
+  border-radius: 8px;
+}
+
+/* line 584, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.servicioPrecio span {
+  color: grey;
+}
+
+/* line 588, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+#aclaracion {
+  color: #ced8e1;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+/* line 593, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.contenedorServicio {
+  margin-top: 1rem;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 96%;
+  padding-bottom: 3rem;
+}
+
+/* line 600, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.contactoFormulario {
+  /*300 500 700*/
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  color: #ced8e1;
+  padding: 1rem;
+  font-size: 3rem;
+  width: 75%;
+  margin: auto;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 610, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.botonFormulario {
+  color: #102b3c;
+  background-color: #3ac6e9;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 0.8em;
+}
+
+/* line 618, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.botonFormulario:hover {
+  background-color: #212529;
+  color: #3ac6e9;
+  transition: 200ms linear;
+}
+
+/* line 625, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+html {
+  background-color: #001c2d;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+  /* line 4, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  .botonFooter {
+    display: none;
+  }
+  /* line 7, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  .tituloCalles, .textoCobertura {
+    font-size: 1em;
+  }
+  /* line 10, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  .botonCarousel a {
+    font-size: 0.7em;
+  }
+  /* line 13, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  p.tituloLanding {
+    margin: auto;
+    font-size: 140%;
+  }
+  /* line 18, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  .elFormulario input {
+    width: 90%;
+  }
+  /* line 21, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  .elFormulario select {
+    width: 90%;
+  }
+  /* line 25, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  .tituloForm {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1020px) {
+  /* line 33, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  p.tituloLanding {
+    margin: auto;
+    font-size: 200%;
+  }
+  /* line 37, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  p.textServicioLanding {
+    font-size: 300%;
+  }
+  /* line 41, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  .elFormulario input {
+    width: 90%;
+  }
+  /* line 44, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  .elFormulario select {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  /* line 53, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  #divTituloImg {
+    background-position: center right;
+  }
+  /* line 56, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  p.tituloLanding {
+    margin: auto;
+    font-size: 300%;
+  }
+  /* line 60, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  p.textServicioLanding {
+    font-size: 340%;
+  }
+  /* line 63, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  p#aLaDerecha {
+    text-align: right;
+  }
+  /* line 66, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  p#aLaIzquierda {
+    text-align: left;
+  }
+  /* line 69, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  .servicioLandingBotonLoQuiero {
+    margin: 1em;
+    /*profe, acá no le puedo redefinir el margin, sabes por que puede ser? */
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  /* line 75, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  .textCarousel {
+    margin: 0em 3em;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

@@ -17,31 +17,6 @@
     font-size: $tamanio;
     color:#e7e7e7;
 }
-@mixin elBoton($y: 0.5em, $x:0.75em){
-	width: max-content;
-	padding:1rem;
-	margin:auto;
-    a{
-		text-decoration: none;
-		padding: $y $x;
-		background-color: $celeste;
-		color: $negrito;
-		border: 1px solid $gris;
-		border-radius: 16px;
-		&:hover{
-			background-color: #e7e7e7;
-			color: $azul-oscuro;
-			transition: all 250ms ease-in-out;
-		}
-	}
-}
-@each $red, $color in $colores-footer{
-	.color-#{$red}{
-		color: $color;
-	}
-}
-
-
 @for $i from 1 through 3{
 	.weight-#{$i}{
 		font-weight: 200*$i + 100

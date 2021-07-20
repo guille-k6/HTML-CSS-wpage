@@ -148,7 +148,6 @@
 		margin:auto;
 	}
 	.servicioLandingBotonLoQuiero{
-		@include elBoton(0.5em, 1em);	
 	}	
 }
 #divInternetEmpresas{
@@ -385,42 +384,52 @@ p.textoFooter{
 	color:$azul-oscuro;
 }
 /* CSS FORMULARIO */
-
+#contenedorTituloServicioContacto{
+	background: rgba(#cececeb3, 0.7);
+}
 .divFormulario{
 	background-image: 
-	linear-gradient(180deg, rgba(231,231,231,0.6) 11%, rgba(130,189,227,0.3) 91%),
+	linear-gradient(180deg, #0c1325cf 11%, #82bde382 91%),
 	url("../media/wallpaper3.jpg");
 	background-size: cover;
 	background-position: center left;
 }
 .containerMio{
 	padding: 1rem 0rem;
-	width:80%;
+	width:75%;
 	margin:auto;
 }
 .tituloForm{
-	@include font-Montserrat(700);
-	color: $negrito;
-	font-size: 4rem;
+	@include font-Montserrat(600);
+	color: $gris;
+	font-size: 3rem;
+	border-bottom: 2px solid $celeste;
 }
 .textoForm{
-	@include font-Montserrat(500);
-	color: #3a4046;
+	width: 70%;
+	padding: 1rem;
+	@include font-Rubik(300);
+	color: $gris;
 	font-size: 2rem;
 }
 .elFormulario{
 	padding: 0;
 	label{
+		color: $gris;
 		font-size: 1.2em;
-		padding-left: 0.4rem;
-		@include font-Rubik(300);
+		padding-bottom: 0.5em;
+		@include font-Montserrat(500);
 	}
 	input{
-		width: 66%;
-		padding: 4px 8px;
-		&:focus{
-			box-shadow: none;
-			outline-color: rgba(blue, 0.5);
+		width: 90%;
+		border-radius: 4px;
+		padding: 2px 8px;
+		&:focus, :active{
+		box-shadow: 5px -1px 34px 8px rgba(77,194,215,0.46);
+		-webkit-box-shadow: 5px -1px 34px 8px rgba(77,194,215,0.46);
+		-moz-box-shadow: 5px -1px 34px 8px rgba(77,194,215,0.46);
+			outline: 2px solid;
+			outline-color: rgba($celeste, 0.6);
 		}
 		&[type=checkbox]{
 			width: max-content;
@@ -437,7 +446,87 @@ p.textoFooter{
 		background-color: white;
 		transition: 200ms linear;
 	}
+}
+.fondoContacto{
+	background-color: rgba(#000, 0.5);
+	padding: 1rem;
+	border-radius: 8px;
+}
+.formularioTitle{
+	@include font-Montserrat(400);
+	color: $gris;
+	font-size: 2em;
+	border-bottom: 1px solid $celeste;
+}
+.formularioTexto{
+	@include font-Montserrat(400);
+	color: $gris;
+	font-size: 1.3em;
+	padding:1rem;
+}
+.containerGadget{
+	background: linear-gradient(90deg, rgba(58,198,233,0.3) 3%, rgba(0,0,0,0) 100%);
+	border-left: 2px solid $celeste;
+	border-radius: 20px;
+	padding: 2% 5%;
+}
+.widgetRedes{
+	background-color: $negrito;
+	border-radius: 8px;
+	padding: 1rem;
+	border: 1px solid $azul-oscuro;
+	box-shadow: 9px 0px 12px 4px rgba(0,0,0,0.63);
+	-webkit-box-shadow: 9px 0px 12px 4px rgba(0,0,0,0.63);
+	-moz-box-shadow: 9px 0px 12px 4px rgba(0,0,0,0.63);
+	&:hover{
+		transform: scale(1.05);
+		background-color: $gris;
+		.logoRedGadget{
+			color: $azul-oscuro;
+		}
+		transition: all 180ms ease-in-out;
+	}
+}
+.miBoton{
+	border: none;
+	outline: none;
+	position: relative;
+	cursor: pointer;
+	text-decoration: none;
+	padding: 0.5em, 0.75em;
+	background-color: $negrito;
+	color: $celeste;
+	transition: top, left, right, bottom, 100ms ease-in-out;
+}
+.miBoton::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	border: 2px solid $negrito;
+}
+.miBoton:hover::before, .miBoton:focus::before{
+	top: calc(2 * -2);
+	left: calc(2 * -2);
+	right: calc(2 * -2);
+	bottom: calc(2 * -2);
+}
 
+.logoRedGadget{
+	margin:auto;
+	color: $celeste;
+	width: 100%;
+	max-width: 55px;
+}
+.redesSociales{
+	color: $gris;
+	border-bottom: 2px solid $celeste;
+	@include font-Rubik(500);
+	padding-left: 1rem;
+	font-size: 1.5rem; 
 }
 /* SERVICIO 1 */
 
