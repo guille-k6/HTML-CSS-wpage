@@ -69,10 +69,18 @@
 	.servicioLandingBotonLoQuiero {
     	margin:1em; /*profe, acá no le puedo redefinir el margin, sabes por que puede ser? */
     }
+    .tituloLanding{
+    	font-size: 3rem;
+    }
 }
 
 @media only screen and (min-width: 600px){
 	.textCarousel{
 		margin: 0em 3em;
+	}
+}
+@media only screen and (max-width: 600px){
+	.fotoFibraOptica{
+		display:none;
 	}
 }

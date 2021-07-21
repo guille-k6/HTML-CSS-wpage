@@ -51,7 +51,6 @@
 	background-color: $celeste;	
 }
 /*----------------*/
-
 /*----------------*/
 #divTituloImg{
 	background-image: 
@@ -63,10 +62,11 @@
 	height: 40%;
 }
 .tituloLanding{
-	@include tituloPrincipal (180%);
+	@include font-Montserrat(400);
+	color: $gris;
+	font-size: 2rem;
 }
 .fotoFibraOptica{
-	padding-top:1rem;
 	display:block;
 	width: 100%;
 	max-width: 30vh;
@@ -540,7 +540,7 @@ p.textoFooter{
 		url("../media/wallpaper1.jpg");
 	background-size: cover;
 	background-position: top left;
-
+	padding-bottom: 1rem;
 }
 .tituloServicio{
 	color: $celeste;
@@ -599,15 +599,42 @@ p.textoFooter{
 	padding-bottom: 3rem;
 }
 .contactoFormulario{
-	@include font-Rubik(500);
-	color: $gris;
-	padding: 1rem;
-	font-size: 3rem;
+	background-image: 
+	linear-gradient(184deg, #000000cc 6%, #43136591 79%),
+	url("../media/wallpaper4.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.containerTituloServicios{
 	width: 75%;
 	margin: auto;
-	margin-top: 10px;
-	padding-bottom: 10px;
+	border-bottom: 1px solid $celeste;
 }
+.contenedorTituloContacto{
+	margin:auto;
+	padding: 1rem;
+}
+.contenedorServiciosContacto{
+	width: 100%;
+	padding-left: 12%;
+	background-color: rgba(#000, 0.5);
+}
+.serviciosContacto{
+	color: #eaeaea;
+	position:relative;
+	font-size: 2rem;
+	@include font-Rubik(300);
+	text-align: center;
+	padding-top: 1.7rem;
+}
+.textoServiciosContacto{
+	color:$gris;
+	@include font-Montserrat(300);
+	font-size: 1.2rem;
+	line-height: 2rem;
+}
+
+
 html{
 	background-color: #001c2d;
 }

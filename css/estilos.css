@@ -113,7 +113,7 @@
 
 /*----------------*/
 /*----------------*/
-/* line 56, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 55, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 #divTituloImg {
   background-image: linear-gradient(94deg, rgba(33, 37, 41, 0.9) 6%, rgba(58, 198, 233, 0.3) 79%), url("../media/wallpaper3.jpg");
   background-size: cover;
@@ -122,17 +122,17 @@
   height: 40%;
 }
 
-/* line 65, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 64, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 .tituloLanding {
+  /* 100 300 500 700 */
   font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 180%;
-  color: #e7e7e7;
+  font-weight: 400;
+  color: #ced8e1;
+  font-size: 2rem;
 }
 
-/* line 68, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 69, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 .fotoFibraOptica {
-  padding-top: 1rem;
   display: block;
   width: 100%;
   max-width: 30vh;
@@ -773,6 +773,7 @@ p.textoFooter {
   background-image: linear-gradient(180deg, rgba(208, 0, 214, 0.2) 21%, rgba(0, 0, 0, 0.25) 84%), url("../media/wallpaper1.jpg");
   background-size: cover;
   background-position: top left;
+  padding-bottom: 1rem;
 }
 
 /* line 545, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
@@ -854,19 +855,54 @@ p.textoFooter {
 
 /* line 601, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 .contactoFormulario {
-  /*300 500 700*/
-  font-family: 'Rubik', sans-serif;
-  font-weight: 500;
-  color: #ced8e1;
-  padding: 1rem;
-  font-size: 3rem;
-  width: 75%;
-  margin: auto;
-  margin-top: 10px;
-  padding-bottom: 10px;
+  background-image: linear-gradient(184deg, #000000cc 6%, #43136591 79%), url("../media/wallpaper4.jpg");
+  background-size: cover;
+  background-position: bottom;
 }
 
-/* line 611, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 608, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.containerTituloServicios {
+  width: 75%;
+  margin: auto;
+  border-bottom: 1px solid #3ac6e9;
+}
+
+/* line 613, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.contenedorTituloContacto {
+  margin: auto;
+  padding: 1rem;
+}
+
+/* line 617, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.contenedorServiciosContacto {
+  width: 100%;
+  padding-left: 12%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 622, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.serviciosContacto {
+  color: #eaeaea;
+  position: relative;
+  font-size: 2rem;
+  /*300 500 700*/
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 1.7rem;
+}
+
+/* line 630, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.textoServiciosContacto {
+  color: #ced8e1;
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+/* line 638, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 html {
   background-color: #001c2d;
 }
@@ -950,12 +986,23 @@ html {
     margin: 1em;
     /*profe, acá no le puedo redefinir el margin, sabes por que puede ser? */
   }
+  /* line 72, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  .tituloLanding {
+    font-size: 3rem;
+  }
 }
 
 @media only screen and (min-width: 600px) {
-  /* line 75, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  /* line 78, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
   .textCarousel {
     margin: 0em 3em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* line 83, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  .fotoFibraOptica {
+    display: none;
   }
 }
 
