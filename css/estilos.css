@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
 /* line 2, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_main.scss */
-.font-Fjalla, p.tituloFooter, .tituloServicio, .botonFormulario {
+.font-Fjalla, p.tituloFooter, .tituloServicio {
   font-family: 'Fjalla One', sans-serif;
   transform: skew(-10deg);
 }
@@ -645,21 +645,14 @@ p.textoFooter {
   outline-color: rgba(0, 0, 255, 0.5);
 }
 
-/* line 444, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
-.elFormulario button:hover {
-  color: black;
-  background-color: white;
-  transition: 200ms linear;
-}
-
-/* line 450, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 445, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 .fondoContacto {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 1rem;
   border-radius: 8px;
 }
 
-/* line 455, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 450, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 .formularioTitle {
   /* 100 300 500 700 */
   font-family: 'Montserrat', sans-serif;
@@ -669,7 +662,7 @@ p.textoFooter {
   border-bottom: 1px solid #3ac6e9;
 }
 
-/* line 461, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 456, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 .formularioTexto {
   /* 100 300 500 700 */
   font-family: 'Montserrat', sans-serif;
@@ -679,7 +672,7 @@ p.textoFooter {
   padding: 1rem;
 }
 
-/* line 467, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 462, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 .containerGadget {
   background: linear-gradient(90deg, rgba(58, 198, 233, 0.3) 3%, rgba(0, 0, 0, 0) 100%);
   border-left: 2px solid #3ac6e9;
@@ -687,7 +680,7 @@ p.textoFooter {
   padding: 2% 5%;
 }
 
-/* line 473, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 468, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 .widgetRedes {
   background-color: #212529;
   border-radius: 8px;
@@ -698,52 +691,59 @@ p.textoFooter {
   -moz-box-shadow: 9px 0px 12px 4px rgba(0, 0, 0, 0.63);
 }
 
-/* line 481, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 476, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 .widgetRedes:hover {
   transform: scale(1.05);
   background-color: #ced8e1;
   transition: all 180ms ease-in-out;
 }
 
-/* line 484, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 479, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 .widgetRedes:hover .logoRedGadget {
   color: #102b3c;
 }
 
-/* line 490, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
-.miBoton {
-  border: none;
+/* line 485, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.miBoton, .miBotonAzul, .miBotonRojo {
+  display: block;
+  position: relative;
+  width: max-content;
+  margin: auto;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  /* 100 300 500 700 */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   outline: none;
   position: relative;
   cursor: pointer;
+  color: black;
   text-decoration: none;
-  padding: 0.5em, 0.75em;
-  background-color: #212529;
-  color: #3ac6e9;
-  transition: top, left, right, bottom, 100ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 
-/* line 501, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
-.miBoton::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-  border: 2px solid #212529;
+/* line 500, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.miBoton:hover, .miBotonAzul:hover, .miBotonRojo:hover, .miBoton:focus, .miBotonAzul:focus, .miBotonRojo:focus {
+  background-color: #3ac6e9;
+  color: #102b3c;
+  box-shadow: 0px 0px 21px 9px rgba(16, 43, 60, 0.6);
+  -webkit-box-shadow: 0px 0px 21px 9px rgba(16, 43, 60, 0.6);
+  -moz-box-shadow: 0px 0px 21px 9px rgba(16, 43, 60, 0.6);
 }
 
-/* line 511, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
-.miBoton:hover::before, .miBoton:focus::before {
-  top: calc(2 * -2);
-  left: calc(2 * -2);
-  right: calc(2 * -2);
-  bottom: calc(2 * -2);
+/* line 507, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.miBotonAzul {
+  background-color: #0d6efd;
+  color: #ced8e1;
 }
 
-/* line 518, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 512, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+.miBotonRojo {
+  background-color: #dc3545;
+  color: #ced8e1;
+}
+
+/* line 519, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 .logoRedGadget {
   margin: auto;
   color: #3ac6e9;
@@ -751,7 +751,7 @@ p.textoFooter {
   max-width: 55px;
 }
 
-/* line 524, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 525, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 .redesSociales {
   color: #ced8e1;
   border-bottom: 2px solid #3ac6e9;
@@ -763,19 +763,19 @@ p.textoFooter {
 }
 
 /* SERVICIO 1 */
-/* line 533, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 534, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 .bi-alarm-fill {
   width: 100%;
 }
 
-/* line 536, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 537, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 .fondoServicioUno {
   background-image: linear-gradient(180deg, rgba(208, 0, 214, 0.2) 21%, rgba(0, 0, 0, 0.25) 84%), url("../media/wallpaper1.jpg");
   background-size: cover;
   background-position: top left;
 }
 
-/* line 544, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 545, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 .tituloServicio {
   color: #3ac6e9;
   font-size: 2.5rem;
@@ -783,7 +783,7 @@ p.textoFooter {
   border-bottom: 1px solid #ced8e1;
 }
 
-/* line 551, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 552, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 .logoBootstrap {
   padding: 1rem;
   display: block;
@@ -793,12 +793,12 @@ p.textoFooter {
   border-bottom: 1px solid #ced8e1;
 }
 
-/* line 559, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 560, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 #herramientas {
   padding: 2rem;
 }
 
-/* line 563, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 564, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 .contenedorCuerpoServicio h5 {
   color: #3ac6e9;
   /*300 500 700*/
@@ -808,7 +808,7 @@ p.textoFooter {
   padding-left: 15%;
 }
 
-/* line 569, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 570, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 .contenedorCuerpoServicio ul {
   /* 100 300 500 700 */
   font-family: 'Montserrat', sans-serif;
@@ -817,7 +817,7 @@ p.textoFooter {
   padding: 0em 4em;
 }
 
-/* line 575, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 576, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 .servicioPrecio {
   color: #ced8e1;
   font-size: 1.5em;
@@ -831,19 +831,19 @@ p.textoFooter {
   border-radius: 8px;
 }
 
-/* line 584, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 585, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 .servicioPrecio span {
   color: grey;
 }
 
-/* line 588, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 589, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 #aclaracion {
   color: #ced8e1;
   font-size: 0.7em;
   text-align: center;
 }
 
-/* line 593, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 594, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 .contenedorServicio {
   margin-top: 1rem;
   border-radius: 16px;
@@ -852,7 +852,7 @@ p.textoFooter {
   padding-bottom: 3rem;
 }
 
-/* line 600, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 601, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 .contactoFormulario {
   /*300 500 700*/
   font-family: 'Rubik', sans-serif;
@@ -866,24 +866,7 @@ p.textoFooter {
   padding-bottom: 10px;
 }
 
-/* line 610, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
-.botonFormulario {
-  color: #102b3c;
-  background-color: #3ac6e9;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  border-radius: 8px;
-  font-size: 0.8em;
-}
-
-/* line 618, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
-.botonFormulario:hover {
-  background-color: #212529;
-  color: #3ac6e9;
-  transition: 200ms linear;
-}
-
-/* line 625, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 611, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 html {
   background-color: #001c2d;
 }

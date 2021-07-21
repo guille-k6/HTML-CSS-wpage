@@ -441,11 +441,6 @@ p.textoFooter{
 		width: 20%;
 		outline-color: rgba(blue, 0.5);
 	}
-	button:hover{
-		color:black;
-		background-color: white;
-		transition: 200ms linear;
-	}
 }
 .fondoContacto{
 	background-color: rgba(#000, 0.5);
@@ -488,32 +483,38 @@ p.textoFooter{
 	}
 }
 .miBoton{
-	border: none;
+	display: block;
+	position: relative;
+	width: max-content;
+	margin: auto;
+	padding: 0.6rem 1rem;
+	border-radius: 6px;
+	@include font-Montserrat(500);
 	outline: none;
 	position: relative;
 	cursor: pointer;
+	color: black;
 	text-decoration: none;
-	padding: 0.5em, 0.75em;
-	background-color: $negrito;
-	color: $celeste;
-	transition: top, left, right, bottom, 100ms ease-in-out;
+	transition: all 200ms ease-in-out;
 }
-.miBoton::before{
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index: -1;
-	border: 2px solid $negrito;
+.miBoton:hover, .miBoton:focus{
+	background-color: $celeste;
+	color: $azul-oscuro;
+	box-shadow: 0px 0px 21px 9px rgba(16,43,60,0.6);
+	-webkit-box-shadow: 0px 0px 21px 9px rgba(16,43,60,0.6);
+	-moz-box-shadow: 0px 0px 21px 9px rgba(16,43,60,0.6);
 }
-.miBoton:hover::before, .miBoton:focus::before{
-	top: calc(2 * -2);
-	left: calc(2 * -2);
-	right: calc(2 * -2);
-	bottom: calc(2 * -2);
+.miBotonAzul{
+	@extend .miBoton;
+	background-color: #0d6efd;
+	color: $gris;
 }
+.miBotonRojo{
+	@extend .miBoton;
+	background-color: #dc3545;
+	color: $gris;
+}
+
 
 .logoRedGadget{
 	margin:auto;
@@ -606,21 +607,6 @@ p.textoFooter{
 	margin: auto;
 	margin-top: 10px;
 	padding-bottom: 10px;
-}
-.botonFormulario{
-	color: $azul-oscuro;
-	background-color: $celeste;
-	padding: 0.5rem 1rem;
-	text-decoration: none;
-	border-radius: 8px;
-	font-size: 0.8em;
-	@extend .font-Fjalla;
-	&:hover{
-		background-color: $negrito;
-		color: $celeste;
-		transition: 200ms linear;
-
-	}
 }
 html{
 	background-color: #001c2d;
