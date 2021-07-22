@@ -459,6 +459,9 @@ p.textoFooter{
 	font-size: 1.3em;
 	padding:1rem;
 }
+.botonEnviar{
+	@include font-Rubik(500);
+}
 .containerGadget{
 	background: linear-gradient(90deg, rgba(58,198,233,0.3) 3%, rgba(0,0,0,0) 100%);
 	border-left: 2px solid $celeste;
@@ -468,6 +471,7 @@ p.textoFooter{
 .widgetRedes{
 	background-color: $negrito;
 	border-radius: 8px;
+	margin: 4px;
 	padding: 1rem;
 	border: 1px solid $azul-oscuro;
 	box-shadow: 9px 0px 12px 4px rgba(0,0,0,0.63);
@@ -637,6 +641,8 @@ p.textoFooter{
 
 html{
 	background-color: #001c2d;
+	scroll-behavior: smooth;
+	scroll-padding-top: 120px;
 }
 
 @import "mediaQueries";
