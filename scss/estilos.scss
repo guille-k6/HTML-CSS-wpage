@@ -638,7 +638,9 @@ p.textoFooter{
 	line-height: 2rem;
 }
 
-
+body{
+	overscroll-behavior: none;
+}
 html{
 	background-color: #001c2d;
 	scroll-behavior: smooth;

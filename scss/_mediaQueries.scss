@@ -1,6 +1,47 @@
 @import "variables";
 
 @media only screen and (min-width: 300px) and (max-width: 767px){
+	#divTituloImg{
+		background-image: 
+		linear-gradient(94deg, rgba(33,37,41,.9) 6%, rgba(58,198,233,0.3) 79%),
+		url("../media/wallpapermobile3.jpg");
+		background-position: top;
+	}
+	#divInternetHogares{
+		background-image: 
+		linear-gradient(180deg, rgba(208,0,214,0.20) 21%, rgba(0,0,0,0.25) 84%),
+		url("../media/wallpapermobile1.jpg");
+		background-position: center;
+	}
+	#divInternetEmpresas{
+		background-image: 
+		linear-gradient(90deg, rgba(58,198,233,0.3) 22%, rgba(0,0,0,0.8) 81%),
+		url("../media/wallpapermobile2.jpg");
+	}
+	#divInformacionLanding{
+		background-image: 
+		linear-gradient(180deg, rgba(0,0,0,0.4) 27%, rgba(16,43,60,0.3) 75%),
+		url("../media/wallpapermobile4.jpg");
+	}
+	.fondoServicioUno{
+		background-image:
+		linear-gradient(180deg, rgba(208,0,214,0.20) 21%, rgba(0,0,0,0.25) 84%),
+		url("../media/wallpapermobile1.jpg");		
+	}
+	.contactoFormulario{
+		background-image: 
+		linear-gradient(184deg, #000000cc 6%, #43136591 79%),
+		url("../media/wallpapermobile4.jpg");
+	}
+	.divFondoCobertura{
+		background-image: linear-gradient(180deg, rgba(208,0,214,0.20) 21%, rgba(0,0,0,0.25) 84%),
+		url("../media/wallpapermobile1.jpg");
+	}
+	.divFormulario{
+		background-image: 
+		linear-gradient(180deg, #0c1325cf 11%, #82bde382 91%),
+		url("../media/wallpapermobile3.jpg");
+	}	
 	.botonFooter{
 		display:none;
 	}
@@ -35,6 +76,47 @@
 
 
 @media only screen and (min-width: 768px) and (max-width: 1020px){
+	#divTituloImg{
+	background-image: 
+	linear-gradient(94deg, rgba(33,37,41,.9) 6%, rgba(58,198,233,0.3) 79%),
+	url("../media/wallpapertablet3.jpg");
+	background-position: top;
+	}
+	#divInternetHogares{
+		background-image: 
+		linear-gradient(180deg, rgba(208,0,214,0.20) 21%, rgba(0,0,0,0.25) 84%),
+		url("../media/wallpapertablet1.jpg");
+		background-position: center;
+	}
+	#divInternetEmpresas{
+		background-image: 
+		linear-gradient(90deg, rgba(58,198,233,0.3) 22%, rgba(0,0,0,0.8) 81%),
+		url("../media/wallpapertablet2.jpg");
+	}
+	#divInformacionLanding{
+		background-image: 
+		linear-gradient(180deg, rgba(0,0,0,0.4) 27%, rgba(16,43,60,0.3) 75%),
+		url("../media/wallpapertablet4.jpg");
+	}
+	.fondoServicioUno{
+		background-image:
+		linear-gradient(180deg, rgba(208,0,214,0.20) 21%, rgba(0,0,0,0.25) 84%),
+		url("../media/wallpapertablet1.jpg");		
+	}
+	.contactoFormulario{
+		background-image: 
+		linear-gradient(184deg, #000000cc 6%, #43136591 79%),
+		url("../media/wallpapertablet4.jpg");
+	}
+	.divFondoCobertura{
+		background-image: linear-gradient(180deg, rgba(208,0,214,0.20) 21%, rgba(0,0,0,0.25) 84%),
+		url("../media/wallpapertablet1.jpg");
+	}
+	.divFormulario{
+		background-image: 
+		linear-gradient(180deg, #0c1325cf 11%, #82bde382 91%),
+		url("../media/wallpapertablet3.jpg");
+	}
 	p.tituloLanding{
 	margin:auto;
 	font-size:200%;
@@ -70,9 +152,6 @@
     }
     p#aLaIzquierda{
     	text-align: left;
-    }
-	.servicioLandingBotonLoQuiero {
-    	margin:1em; /*profe, acá no le puedo redefinir el margin, sabes por que puede ser? */
     }
     .tituloLanding{
     	font-size: 3rem;
