@@ -226,7 +226,14 @@
 	background-color:rgba($gris, 0.6);
 	color:$celeste;
 }
-
+.carousel-indicators [data-bs-target]{
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+}
+.carousel-indicators [data-bs-target].active{
+	background-color: $celeste;
+}
 
 
 /* FOOTER */
