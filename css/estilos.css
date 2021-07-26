@@ -910,12 +910,7 @@ p.textoFooter {
   line-height: 2rem;
 }
 
-/* line 641, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
-body {
-  overscroll-behavior: none;
-}
-
-/* line 644, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
+/* line 640, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/estilos.scss */
 html {
   background-color: #001c2d;
   scroll-behavior: smooth;
@@ -992,99 +987,104 @@ html {
     padding: 1rem 0rem;
     font-size: 1.4rem;
   }
+  /* line 74, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  .formularioTexto {
+    padding: 4px;
+    font-size: 16px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1020px) {
-  /* line 79, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  /* line 83, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
   #divTituloImg {
     background-image: linear-gradient(94deg, rgba(33, 37, 41, 0.9) 6%, rgba(58, 198, 233, 0.3) 79%), url("../media/wallpapertablet3.jpg");
     background-position: top;
   }
-  /* line 85, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  /* line 89, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
   #divInternetHogares {
     background-image: linear-gradient(180deg, rgba(208, 0, 214, 0.2) 21%, rgba(0, 0, 0, 0.25) 84%), url("../media/wallpapertablet1.jpg");
     background-position: center;
   }
-  /* line 91, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  /* line 95, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
   #divInternetEmpresas {
     background-image: linear-gradient(90deg, rgba(58, 198, 233, 0.3) 22%, rgba(0, 0, 0, 0.8) 81%), url("../media/wallpapertablet2.jpg");
   }
-  /* line 96, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  /* line 100, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
   #divInformacionLanding {
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 27%, rgba(16, 43, 60, 0.3) 75%), url("../media/wallpapertablet4.jpg");
   }
-  /* line 101, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  /* line 105, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
   .fondoServicioUno {
     background-image: linear-gradient(180deg, rgba(208, 0, 214, 0.2) 21%, rgba(0, 0, 0, 0.25) 84%), url("../media/wallpapertablet1.jpg");
   }
-  /* line 106, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  /* line 110, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
   .contactoFormulario {
     background-image: linear-gradient(184deg, #000000cc 6%, #43136591 79%), url("../media/wallpapertablet4.jpg");
   }
-  /* line 111, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  /* line 115, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
   .divFondoCobertura {
     background-image: linear-gradient(180deg, rgba(208, 0, 214, 0.2) 21%, rgba(0, 0, 0, 0.25) 84%), url("../media/wallpapertablet1.jpg");
   }
-  /* line 115, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  /* line 119, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
   .divFormulario {
     background-image: linear-gradient(180deg, #0c1325cf 11%, #82bde382 91%), url("../media/wallpapertablet3.jpg");
   }
-  /* line 120, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  /* line 124, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
   p.tituloLanding {
     margin: auto;
     font-size: 200%;
   }
-  /* line 124, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  /* line 128, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
   p.textServicioLanding {
     font-size: 300%;
   }
-  /* line 128, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  /* line 132, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
   .elFormulario input {
     width: 90%;
   }
-  /* line 131, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  /* line 135, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
   .elFormulario select {
     width: 60%;
   }
 }
 
 @media only screen and (min-width: 1000px) {
-  /* line 140, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  /* line 144, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
   #divTituloImg {
     background-position: center right;
   }
-  /* line 143, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  /* line 147, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
   p.tituloLanding {
     margin: auto;
     font-size: 300%;
   }
-  /* line 147, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  /* line 151, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
   p.textServicioLanding {
     font-size: 340%;
   }
-  /* line 150, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  /* line 154, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
   p#aLaDerecha {
     text-align: right;
   }
-  /* line 153, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  /* line 157, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
   p#aLaIzquierda {
     text-align: left;
   }
-  /* line 156, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  /* line 160, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
   .tituloLanding {
     font-size: 3rem;
   }
 }
 
 @media only screen and (min-width: 600px) {
-  /* line 162, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  /* line 166, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
   .textCarousel {
     margin: 0em 3em;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  /* line 167, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
+  /* line 171, C:/Users/Guille/Desktop/Curso_Coderhouse/subir_github/entregaFinal/scss/_mediaQueries.scss */
   .fotoFibraOptica {
     display: none;
   }
